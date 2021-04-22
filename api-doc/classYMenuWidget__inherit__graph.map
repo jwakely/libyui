@@ -1,0 +1,7 @@
+<map id="YMenuWidget" name="YMenuWidget">
+<area shape="rect" id="node1" title=" " alt="" coords="52,155,156,181"/>
+<area shape="rect" id="node4" href="$classYMenuBar.html" title=" " alt="" coords="5,229,88,256"/>
+<area shape="rect" id="node5" href="$classYMenuButton.html" title=" " alt="" coords="112,229,213,256"/>
+<area shape="rect" id="node2" href="$classYSelectionWidget.html" title=" " alt="" coords="41,80,167,107"/>
+<area shape="rect" id="node3" href="$classYWidget.html" title=" " alt="" coords="68,5,140,32"/>
+</map>

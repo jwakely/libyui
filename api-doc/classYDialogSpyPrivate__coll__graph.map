@@ -1,0 +1,16 @@
+<map id="YDialogSpyPrivate" name="YDialogSpyPrivate">
+<area shape="rect" id="node1" title=" " alt="" coords="283,420,413,447"/>
+<area shape="rect" id="node2" href="$classYTree.html" title=" " alt="" coords="5,249,61,276"/>
+<area shape="rect" id="node3" href="$classYSelectionWidget.html" title=" " alt="" coords="128,81,253,108"/>
+<area shape="rect" id="node10" href="$classYTable.html" title=" " alt="" coords="95,249,158,276"/>
+<area shape="rect" id="node13" href="$classYMenuWidget.html" title=" " alt="" coords="197,183,301,209"/>
+<area shape="rect" id="node4" href="$classYWidget.html" title=" " alt="" coords="403,5,475,32"/>
+<area shape="rect" id="node6" href="$classYSingleChildContainerWidget.html" title=" " alt="" coords="342,183,535,209"/>
+<area shape="rect" id="node14" href="$classYPushButton.html" title=" " alt="" coords="505,132,604,159"/>
+<area shape="rect" id="node5" href="$classYDialog.html" title=" " alt="" coords="334,316,402,343"/>
+<area shape="rect" id="node11" href="$classYReplacePoint.html" title=" " alt="" coords="426,316,534,343"/>
+<area shape="rect" id="node7" href="$classYMenuItem.html" title=" " alt="" coords="622,316,711,343"/>
+<area shape="rect" id="node8" href="$classYTreeItem.html" title=" " alt="" coords="632,183,715,209"/>
+<area shape="rect" id="node9" href="$classYItem.html" title=" " alt="" coords="645,81,702,108"/>
+<area shape="rect" id="node12" href="$classYMenuButton.html" title=" " alt="" coords="208,316,309,343"/>
+</map>

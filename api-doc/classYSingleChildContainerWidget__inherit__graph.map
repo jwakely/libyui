@@ -1,0 +1,11 @@
+<map id="YSingleChildContainerWidget" name="YSingleChildContainerWidget">
+<area shape="rect" id="node1" title=" " alt="" coords="299,80,493,107"/>
+<area shape="rect" id="node3" href="$classYAlignment.html" title=" " alt="" coords="5,155,93,181"/>
+<area shape="rect" id="node4" href="$classYCheckBoxFrame.html" title=" " alt="" coords="117,155,245,181"/>
+<area shape="rect" id="node5" href="$classYDialog.html" title=" " alt="" coords="270,155,338,181"/>
+<area shape="rect" id="node6" href="$classYFrame.html" title=" " alt="" coords="362,155,430,181"/>
+<area shape="rect" id="node7" href="$classYRadioButtonGroup.html" title=" " alt="" coords="454,155,591,181"/>
+<area shape="rect" id="node8" href="$classYReplacePoint.html" title=" " alt="" coords="615,155,723,181"/>
+<area shape="rect" id="node9" href="$classYSquash.html" title=" " alt="" coords="748,155,823,181"/>
+<area shape="rect" id="node2" href="$classYWidget.html" title=" " alt="" coords="360,5,432,32"/>
+</map>
