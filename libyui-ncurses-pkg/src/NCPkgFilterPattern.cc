@@ -71,16 +71,6 @@ using std::endl;
   Textdomain "ncurses-pkg"
 */
 
-struct paircmp
-{
-    bool operator() (std::pair<std::string, std::string> p1, std::pair<std::string, std::string> p2)
-    {
-	if ( p1.second != p2.second )
-            return p1.second < p2.second;
-	else
-            return ( p1.first < p2.first );
-    }
-};
 ///////////////////////////////////////////////////////////////////
 //
 //
@@ -323,8 +313,8 @@ bool NCPkgFilterPattern::fillPatternList()
         }
     }
 
-    std::set < std::pair <std::string, std::string>, paircmp > pat_index;
-    std::set < std::pair <std::string, std::string>, paircmp >::iterator indexIt;
+    std::set < std::pair <std::string, std::string> > pat_index;
+    std::set < std::pair <std::string, std::string> >::iterator indexIt;
 
     // for each category
     for ( mapIt = patterns.begin(); mapIt != patterns.end(); ++mapIt )
@@ -339,8 +329,8 @@ bool NCPkgFilterPattern::fillPatternList()
 	if (pat)
 	{
            yuiDebug() << "Lowest #: "<< pat->order() << endl;
-	   // create "category name" : "order #" std::pair in index structure
-           pat_index.insert( make_pair( name, pat->order()) );
+	   // create "order #" : "category name" std::pair in index structure
+           pat_index.insert( make_pair( pat->order(), name ) );
 
 	}
     }
@@ -351,7 +341,7 @@ bool NCPkgFilterPattern::fillPatternList()
     // now retrieve patterns in defined order
     for ( indexIt = pat_index.begin(); indexIt != pat_index.end(); ++indexIt)
     {
-	std::string name = (*indexIt).first;
+	std::string name = (*indexIt).second;
 	std::list<ZyppSel> slbList = patterns[name];
 
         for ( listIt = slbList.begin(); listIt != slbList.end(); ++listIt )
